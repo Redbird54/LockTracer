@@ -117,7 +117,7 @@ else
       then
         echo "ANALYZING $analyze_file" >> output.txt
         #Path to analysis assumed to be in this path
-        #3) Trace file that was input.
+        #3) Trace file that was input
         node ./jalangi2/src/js/commands/jalangi.js --inlineIID --inlineSource --analysis ./experiments/analysis.js $lib/$analyze_file
         echo "" >> output.txt
       else
